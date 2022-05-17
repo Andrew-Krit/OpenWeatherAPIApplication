@@ -1,0 +1,139 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Newtonsoft.Json >= 13.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Sicknezz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Programs\\GitHub\\a.spiridovich\\OpenWeatherAPIApplication\\OpenWeatherAPIApplication\\OpenWeatherAPIApplication.csproj",
+      "projectName": "OpenWeatherAPIApplication",
+      "projectPath": "D:\\Programs\\GitHub\\a.spiridovich\\OpenWeatherAPIApplication\\OpenWeatherAPIApplication\\OpenWeatherAPIApplication.csproj",
+      "packagesPath": "C:\\Users\\Sicknezz\\.nuget\\packages\\",
+      "outputPath": "D:\\Programs\\GitHub\\a.spiridovich\\OpenWeatherAPIApplication\\OpenWeatherAPIApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Sicknezz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.22, 3.1.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Не удалось найти пакет Newtonsoft.Json с версией (>= 13.0.1)\r\n  - В Microsoft Visual Studio Offline Packages обнаружено несколько версий (1) [ Ближайшая версия: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.NETCore.App.Host.win-x64. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.AspNetCore.App.Ref. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.WindowsDesktop.App.Ref. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Не удалось найти пакет Microsoft.NETCore.App.Ref. Пакеты с таким идентификатором отсутствуют в следующих источниках пакетов: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
